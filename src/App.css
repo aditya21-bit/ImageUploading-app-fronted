@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  background-color: #22252a;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgb(222, 213, 213);
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #171717;
+  font-size: 28px;
+  font-weight: bold;
+  font-family:  georgia;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+}
+
+
+h3 {
+  color: #555;
+}
+
+h6 {
+  color: #171717;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+input {
+  margin-top: 20px;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.image-grid img {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #840505;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cb0303;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding: 12px 0;
+  color: gray;
+  font-size: 14px;
+}
+
+input.file-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgb(238, 235, 238);
+  cursor: pointer;
+}
+
+.container.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #171717;
+  background-color: #e0e0e0;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
