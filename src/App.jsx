@@ -28,7 +28,7 @@ function App() {
 
     try {
       const res = await axios.post(
-        "https://imageuploading-app-backend.onrender.com",
+        "https://imageuploading-app-backend.onrender.com/upload",
         formData
       );
 
